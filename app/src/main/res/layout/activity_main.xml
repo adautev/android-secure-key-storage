@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/generate"
+            android:layout_width="172dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:onClick="generateKey"
+            android:text="Generate key" />
+        <Button
+            android:id="@+id/extract"
+            android:layout_width="172dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:onClick="extractKey"
+            android:text="Extract key" />
+        <Button
+            android:id="@+id/encrypt"
+            android:layout_width="172dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:onClick="encrypt"
+            android:text="Encrypt" />
+        <Button
+            android:id="@+id/decrypt"
+            android:layout_width="172dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:onClick="decrypt"
+            android:text="Decrypt" />
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="172dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:onClick="resetKey"
+            android:text="Clear KeyStore" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            android:id="@+id/text"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
